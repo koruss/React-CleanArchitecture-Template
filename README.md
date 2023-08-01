@@ -4,12 +4,14 @@
 ![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Axios](https://img.shields.io/static/v1?style=for-the-badge&message=Axios&color=5A29E4&logo=Axios&logoColor=FFFFFF&label=)
 
-# Ecommerce-FrontEnd
+# React Project FrontEnd
 
 ## Vite + React + Typescript 
 
 This template serves as the base for creating quickly and easily
 applications with React, using the SWC transpiler for Typescript, also using Vite for the build and server creation, internally uses React Router Dom for the routes control, axios for the HTTP client and Zustand for the state management.
+
+Inside the project are two single pages the main site and a login site
 
 ## About the Structure
 This boilerplate tries to follow the most important principles of the Hexagonal architecture using three mayor layers ( Domain, Application, Infraestructure) also it uses Dependency Injection to control the adapters and ports used.
