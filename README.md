@@ -24,7 +24,7 @@ Lets explain how the structure works:
 
 - **The Domain layer** Contains the entities or domain objects, in this case the domain layer also contains the ports interfaces, some literature place it on the application layer, however, because of the abstract nature of the driven ports , is placed in the Domain objects.
 
-Plus this layers there is a fundamental part of the solution is the **dependency injection manager** ( DI ),  which will be in charge of establish which adapter will be used and automatically inject with the implementations of the adapter once the port is called.
+Plus this layers there is a fundamental part of the solution, the **dependency injection manager** ( DI ),  which will be in charge of establish which adapter will be used and automatically inject with the implementations of the adapter once the port is called.
 
 ## How to use
  There are some requisites to run the application
