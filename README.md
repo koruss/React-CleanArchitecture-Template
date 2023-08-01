@@ -1,3 +1,9 @@
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/vite-%2523646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+
 # Ecommerce-FrontEnd
 
 ## Vite + React + Typescript 
