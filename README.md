@@ -42,11 +42,13 @@ To execute the application you can run the following command:
     npm run dev
 ```
 
-Also the project is organized using **EsLint** to use it you can run the command 
-```
-  npx eslint --init 
-```
+
 
 This will open the server in your localhost using port 5173 by default [Localhost][def]
 
 [def]: http://localhost:5173/
+
+Also the project is organized using **EsLint** to use it you can run the command 
+```
+  npx eslint --init 
+```
