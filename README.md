@@ -1,0 +1,39 @@
+# Ecommerce-FrontEnd
+
+## Vite + React + Typescript 
+
+This template serves as the base for creating quickly and easily
+applications with React, using the SWC transpiler for Typescript, also using Vite for the build and server creation, internally uses React Router Dom for the routes control, axios for the HTTP client and Zustand for the state management.
+
+## About the Structure
+This boilerplate tries to follow the most important principles of the Hexagonal architecture using three mayor layers ( Domain, Application, Infraestructure) also it uses Dependency Injection to control the adapters and ports used.
+
+Lets explain how the structure works:
+
+- **The infraestructure layer** is in charge to manage all the exit or entrance of data to the application, for example: database connections, APIs, UI, etc. For that reason, all the React related, is located in the Infraestructure layer, the same happens with the axios and the zustand store
+
+- **The Application layer** manage all the use cases of the application, for example the archive of data, change personal data, etc. In this case, the application contains the UserService in charge of the login logic and the Data transfer objects.
+
+- **The Domain layer** Contains the entities or domain objects, in this case the domain layer also contains the ports interfaces, some literature place it on the application layer, however, because of the abstract nature of the driven ports , is placed in the Domain objects.
+
+Plus this layers there is a fundamental part of the solution is the **dependency injection manager** ( DI ),  which will be in charge of establish which adapter will be used and automatically inject with the implementations of the adapter once the port is called.
+
+## How to use
+ There are some requisites to run the application
+
+        - Node.JS 18 +
+
+### Installation
+First you will need to install all the modules and libraries using the following command:
+ ```
+    npm install
+ ```
+
+To execute the application you can run the following command:
+```
+    npm run dev
+```
+ 
+This will open the server in your localhost using port 5173 by default [Localhost][def]
+
+[def]: http://localhost:5173/
